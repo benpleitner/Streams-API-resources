@@ -12,5 +12,7 @@
     400,
     413
   ],
-  "subscriptionFeatureIds": []
+  "subscriptionFeatureIds": [
+    200
+  ]
 }
