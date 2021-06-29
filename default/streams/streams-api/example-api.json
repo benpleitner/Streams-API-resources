@@ -1,0 +1,20 @@
+{
+  "$id": "example-api",
+  "$schema": "https://schema.yext.com/config/streams/streams-api/v1",
+  "name": "Example API",
+  "stream": {
+    "source": "knowledgeGraph",
+    "fields": [
+      "name",
+      "description"
+    ]
+  },
+  "fieldIndexes": [
+    {
+      "field": "name"
+    },
+    {
+      "field": "description"
+    }
+  ]
+}

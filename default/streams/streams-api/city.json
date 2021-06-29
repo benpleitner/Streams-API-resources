@@ -1,0 +1,16 @@
+{
+  "$id": "city",
+  "$schema": "https://schema.yext.com/config/streams/streams-api/v1",
+  "name": "City",
+  "stream": {
+    "source": "knowledgeGraph",
+    "fields": [
+      "address"
+    ]
+  },
+  "fieldIndexes": [
+    {
+      "field": "address.city"
+    }
+  ]
+}
